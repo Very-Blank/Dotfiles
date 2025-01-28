@@ -8,7 +8,7 @@
 !niri/
 
 # Ensure contents of the allowed directories are not ignored
-ghostty/**
-waybar/**
-fuzzel/**
-niri/**
+!ghostty/**
+!waybar/**
+!fuzzel/**
+!niri/**
