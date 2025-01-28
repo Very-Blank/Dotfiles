@@ -1,16 +1,19 @@
+# Ignore everything by default
 *
-!.gitignore
 
+# Unignore specific directories
 !ghostty/
 !waybar/
 !fuzzel/
 !niri/
 !nvim/
 
+# Ensure Git looks into these directories
 !ghostty/**
 !waybar/**
 !fuzzel/**
 !niri/**
 !nvim/**
 
+# Explicitly unignore files or subdirectories inside `nvim`
 !nvim/*
