@@ -6,6 +6,7 @@
 !waybar/
 !fuzzel/
 !niri/
+!nvim/
 
 # Ensure contents of the allowed directories are not ignored
 !ghostty/**
