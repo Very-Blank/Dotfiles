@@ -1,2 +1,7 @@
 *
 !.gitignore
+!ghostty
+!waybar
+!fuzzel
+!niri
+
