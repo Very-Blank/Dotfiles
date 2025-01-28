@@ -1,16 +1,16 @@
 *
 !.gitignore
 
-# Allow specific directories and their contents
 !ghostty/
 !waybar/
 !fuzzel/
 !niri/
 !nvim/
 
-# Ensure contents of the allowed directories are not ignored
 !ghostty/**
 !waybar/**
 !fuzzel/**
 !niri/**
+!nvim/**
+
 !nvim/*
