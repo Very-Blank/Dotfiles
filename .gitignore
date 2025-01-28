@@ -6,7 +6,7 @@
 !waybar/
 !fuzzel/
 !niri/
-!nvim/
+!nvim
 
 # Ensure Git looks into these directories
 !ghostty/**
