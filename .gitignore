@@ -1,6 +1,6 @@
 *
 !.gitignore
-!ghostty
-!waybar
-!fuzzel
-!niri
+!ghostty/*
+!waybar/*
+!fuzzel/*
+!niri/*
