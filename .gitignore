@@ -7,6 +7,9 @@
 !fuzzel/
 !niri/
 !nvim
+!zsh/
+
+!zsh
 
 # Ensure Git looks into these directories
 !ghostty/**
@@ -14,6 +17,7 @@
 !fuzzel/**
 !niri/**
 !nvim/**
+!zsh/**
 
-# Explicitly unignore files or subdirectories inside `nvim`
 !nvim/*
+!zsh/*
