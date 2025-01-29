@@ -216,6 +216,7 @@ layout {
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
 spawn-at-startup "xwayland-satellite"
+spawn-at-startup "nm-applet --indicator"
 
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.

@@ -6,8 +6,9 @@
     // "width": 1280, // Waybar width
     // Choose the order of the modules
     "modules-left": ["niri/workspaces"],
-    "modules-center": ["niri/window"],
-    "modules-right": ["pulseaudio", "network", "backlight", "cpu", "memory", "battery", "clock"],
+    //"modules-center": ["niri/window"],
+    //"network",
+    "modules-right": ["pulseaudio", "backlight", "cpu", "memory", "battery", "clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -81,21 +82,27 @@
         "format-alt": "{time} 󰔚",
         "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰂂", "󰁹"]
     },
-    "network": {
+    //"network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} {signalStrength}% ",
-        "format-ethernet": "{ifname}: (IP Hidden) ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ",
-	"on-click" : "ghostty -e nmtui"
-    },
+        //"format-wifi": "{essid} {signalStrength}% ",
+        //"format-ethernet": "{ifname}: (IP Hidden) ",
+        //"format-linked": "{ifname} (No IP) ",
+        //"format-disconnected": "Disconnected ",
+	//"on-click" : "nm-applet"
+    //},
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}%  {format_source}",
-        "format-bluetooth": "{volume}%  {format_source}",
-        "format-bluetooth-muted": " {format_source}",
-        "format-muted": " {format_source}",
+        "format": "{volume}% {icon} {format_source}",
+        "states": {
+             "high": 80,
+             "half": 50,
+             "low": 30,
+        },
+        "format-icons": ["", "", ""],
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": "{format_source} ",
+        "format-muted": " {format_source}",
         "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-source-muted": " ",
     },
 }
