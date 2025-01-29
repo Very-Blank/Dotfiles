@@ -44,7 +44,7 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}%  "
+        "format": "{}% "
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -68,8 +68,8 @@
     },
     "battery": {
         "states": {
-             "high": 90,
-             "good": 80,
+             "high": 100,
+             "good": 90,
              "moderate": 70,
              "half": 50,
              "low": 30,
