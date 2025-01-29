@@ -87,6 +87,7 @@
         "format-ethernet": "{ifname}: (IP Hidden) ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ",
+	"on-click" : "ghostty -e nmtui"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
