@@ -6,9 +6,10 @@
 !waybar/
 !fuzzel/
 !niri/
-!nvim
 !zsh/
+!mako/
 
+!nvim
 !zsh
 
 # Ensure Git looks into these directories
@@ -17,6 +18,7 @@
 !fuzzel/**
 !niri/**
 !nvim/**
+!mako/**
 !zsh/**
 
 !nvim/*
