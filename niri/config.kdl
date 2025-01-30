@@ -60,11 +60,6 @@ input {
     // focus-follows-mouse max-scroll-amount="0%"
 }
 
-environment{
-    DISPLAY ":1"
-}
-
-
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
 // The built-in laptop monitor is usually called "eDP-1".
@@ -215,8 +210,14 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
-spawn-at-startup "xwayland-satellite"
-spawn-at-startup "nm-applet --indicator"
+
+environment{
+    DISPLAY ":1"
+}
+
+spawn-at-startup "xwayland-satellite :1"
+
+spawn-at-startup "nm-applet --indicator" 
 
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
