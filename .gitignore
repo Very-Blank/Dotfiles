@@ -9,6 +9,10 @@
 !zsh/
 !mako/
 
+!swaybag.txt
+!swayidle.txt
+!install.sh
+
 !nvim
 !zsh
 
