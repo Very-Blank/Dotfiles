@@ -218,7 +218,7 @@ layout {
 
 spawn-at-startup "xwayland-satellite"
 
-spawn-at-startup "nm-applet --indicator" 
+spawn-at-startup "nm-applet --indicator"
 
 environment{
     DISPLAY ":0"
