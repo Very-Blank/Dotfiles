@@ -32,6 +32,7 @@ input {
         // dwt
         // dwtp
         natural-scroll
+        scroll-factor 0.5
         // accel-speed 0.2
         // accel-profile "flat"
         // scroll-method "two-finger"
@@ -315,6 +316,8 @@ binds {
     Mod+T { spawn "ghostty"; }
     Mod+D { spawn "fuzzel"; }
     Super+Alt+L { spawn "swaylock"; }
+    Mod+Semicolon { spawn "wtype" "ö"; }
+    Mod+Apostrophe { spawn "wtype" "ä"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
