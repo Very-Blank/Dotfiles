@@ -314,6 +314,8 @@ binds {
     Super+Alt+L { spawn "swaylock"; }
     Mod+Semicolon { spawn "wtype" "ö"; }
     Mod+Apostrophe { spawn "wtype" "ä"; }
+    Mod+Shift+Semicolon { spawn "wtype" "Ö"; }
+    Mod+Shift+Apostrophe { spawn "wtype" "Ä"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
