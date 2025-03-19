@@ -1,3 +1,4 @@
 font-family = "Hack Nerd Font"
 title = "Ghostty"
-
+adjust-cell-width = -10%
+adjust-cell-height = -10%
