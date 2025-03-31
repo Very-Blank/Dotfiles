@@ -102,8 +102,12 @@ input {
     position x=1280 y=0
 }
 
-output "Samsung Electric Company LS32AG32x H9JT200575"{
+output "Samsung Electric Company LS32AG32x H9JT200575   "{
   mode "1920x1080@164.955"
+}
+
+output "PNP(AOC) 2590G5 0x00002709" {
+    mode "1920x1080@74.973"
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -245,7 +249,7 @@ environment{
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
 // This option will also fix border/focus ring drawing behind some semitransparent windows.
 // After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
+prefer-no-csd
 
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
