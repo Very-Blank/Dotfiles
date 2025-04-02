@@ -239,8 +239,11 @@ spawn-at-startup "xwayland-satellite"
 
 spawn-at-startup "nm-applet --indicator"
 
+// yay -S adw-gtk-theme
+// xdg normal portal and gnome!
 environment{
     DISPLAY ":0"
+    GTK_THEME "adw-gtk3-dark"
 }
 
 
